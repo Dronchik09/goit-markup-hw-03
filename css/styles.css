@@ -1,0 +1,148 @@
+body{
+    font-family: "Roboto", sans-serif;
+    color:#434455;
+    background-color: #FFF;
+}
+a{
+    text-decoration: none;
+}
+ul, ol{
+    list-style: none;
+}
+.logo {
+    color:#4D5AE5;
+    font-family:"Raleway",sans-serif;
+    font-weight:700;
+    font-size:18px;
+    line-height:1.17;
+    letter-spacing:0.03em;
+    text-transform:uppercase;
+}
+.logo-part {
+    color: #2E2F42;
+}    
+.link-navigation {    
+    font-weight:500;
+    font-size:16px;
+    line-height:1.5;
+    letter-spacing:0.02em;
+    color:#2E2F42;
+}
+.link-navigation:hover,
+.link-navigation:focus{
+    color:#404BBF;
+}
+.address {
+    font-style:normal;
+}
+.address-link {
+    font-size:16px;
+    line-height:1.5;
+    letter-spacing:0.02em;
+    color:#434455;    
+}
+.address-link:hover,
+.address-link:focus{
+    color:#404BBF;
+}
+.section {
+    background:#2E2F42;
+}
+.section-head {
+font-weight:700;
+font-size:56px;
+line-height:1.07;
+letter-spacing:0.02em;
+text-align:center;
+color:#FFF;
+}
+.section-button {
+background:#4D5AE5;
+cursor:pointer;
+font-weight:500;
+font-size:16px;
+line-height:1.5;
+letter-spacing:0.04em;
+color:#FFF;
+}
+.section-button:hover,
+.section-button:focus{
+    background-color: #404BBF;
+}
+.list-head{
+font-weight:500;
+font-size:20px;
+line-height:1.2;
+letter-spacing:0.02em;
+color:#2E2F42;
+}
+.list-paragraph{
+
+font-size:16px;
+line-height:1.5;
+letter-spacing:0.02em;
+color:#434455;
+}
+.section-team{
+    background-color: #F4F4FD;
+}
+.section-list{
+    background:#ffffff;
+}
+.our-team {
+font-weight: 700;
+font-size: 36px;
+line-height: 1.11;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+text-align: center;
+color: #2E2F42;
+}
+
+.name {
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+color: #2E2F42;
+}
+.name-paragraph {
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #434455;
+}
+.our-portfolio {
+font-weight: 700;
+font-size: 36px;
+line-height: 1.11;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+text-align: center;
+color: #2E2F42;
+}
+.name-portfolio {
+    font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+color: #2E2F42;
+}
+.name-p {
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #434455;
+}
+.footer{
+    background: #2e2f42;
+}
+.footer-paragraph {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #f4f4fd;
+}
+.logo-part-footer{
+    color: #f4f4fd;
+}

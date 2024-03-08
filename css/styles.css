@@ -30,7 +30,7 @@ img{
 border-bottom: 1px solid #e7e9fc;
 }
 .container{
-    width: 1158;
+    width: 1158px;
     padding: 0 15px;
     margin: 0 auto;
 }
@@ -95,8 +95,8 @@ border-bottom: 1px solid #e7e9fc;
     background:#2E2F42;
 }
 .section-pad{
-    padding-top: 120px;
-    padding-bottom: 120px;
+    padding-top: 188px;
+    padding-bottom: 188px;
 }
 .section-head {
 font-weight:700;
@@ -124,12 +124,24 @@ border-radius: 4px;
 padding: 16px 32px;
 margin: 0 auto;
 margin-top: 48px;
-
+min-width: 169px;
 }
 .section-button:hover,
 .section-button:focus{
     background-color: #404BBF;
     cursor: pointer;
+}
+.visually-hidden{
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
 }
 .paragraph-container{
     display: flex;
@@ -165,12 +177,16 @@ color:#434455;
    
 }
 .section-list{
+    width: calc((100% - 3 * 24px) / 4);
     background:#ffffff;
     border-radius: 0 0 4px 4px;
     box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
 .team-img{
     margin-bottom: 32px;
+}
+.team-section{
+    padding: 32px 0;
 }
 .our-team {
 font-weight: 700;
@@ -181,7 +197,7 @@ text-transform: capitalize;
 text-align: center;
 color: #2E2F42;
 padding-top: 120px;
-padding-bottom: 72px;
+margin-bottom: 72px;
 
 }
 
@@ -192,6 +208,8 @@ line-height: 1.2;
 letter-spacing: 0.02em;
 color: #2E2F42;
 padding-left: 65px;
+text-align: center;
+margin-bottom: 8px;
 }
 .name-f{
     font-weight: 500;
@@ -200,6 +218,8 @@ padding-left: 65px;
     letter-spacing: 0.02em;
     color: #2E2F42;
     padding-left: 88px;
+    text-align: center;
+margin-bottom: 8px;
 }
 .name-gar{
     font-weight: 500;
@@ -208,6 +228,8 @@ padding-left: 65px;
     letter-spacing: 0.02em;
     color: #2E2F42;
     padding-left: 67px;
+    text-align: center;
+margin-bottom: 8px;
 }
 .name-w{
     font-weight: 500;
@@ -216,6 +238,8 @@ padding-left: 65px;
     letter-spacing: 0.02em;
     color: #2E2F42;
     padding-left: 68.5px;
+    text-align: center;
+margin-bottom: 8px;
 }
 .name-paragraph-g {
 font-size: 16px;
@@ -224,6 +248,7 @@ letter-spacing: 0.02em;
 color: #434455;
 padding-left: 68px;
 margin-bottom: 32px;
+text-align: center;
 }
 .name-paragraph-f {
     font-size: 16px;
@@ -232,6 +257,7 @@ margin-bottom: 32px;
     color: #434455;
     padding-left: 60px;
     margin-bottom: 32px;
+    text-align: center;
  }
  .name-paragraph-gar{
     font-size: 16px;
@@ -240,6 +266,7 @@ margin-bottom: 32px;
     color: #434455;
     padding-left: 94.5px;
     margin-bottom: 32px;
+    text-align: center;
  }
  .name-paragraph-w{
     font-size: 16px;
@@ -248,6 +275,7 @@ margin-bottom: 32px;
     color: #434455;
     padding-left: 89.5px;
     margin-bottom: 32px;
+    text-align: center;
  }
 .our-portfolio {
 font-weight: 700;
